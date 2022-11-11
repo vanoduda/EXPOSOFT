@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-menu {
+    background: #9dc491;
+    box-shadow: 0px 3px 10px #464646;
+    max-width: 100%;
+    display: flex;
+    height: 120px;
+    padding: 0 2%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+.menu-options ul {
+    font-family: 'Cinzel', serif;
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nome-site {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.aliberty{
+text-decoration: none;
+}
+.h1liberty{
+color: white;
+}
+.nome-site:hover {
+    color: #cf8768;
+}
+
+.logo-nome {
+    align-items: center;
+    display: flex;
+}
+
+ul li a {
+    color: white;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #cf8768;
+}
+
+input {
+    background-color: #f0f0f0;
+    border: none;
+    width: 300px;
+}
+
+button {
+    background-color: #9dc491;
+    border: none;
+    margin: 0px 60px;
+}
+
+#menu-right{
+    width: 15%;
+    display: flex;
+    gap: 50px;
+}
+
+.botao-login {
+    background-color: #9dc491;
+}
+.botao-carrinho {
+    background-color: #9dc491;
+    text-align: right;
+    
+}
+.submenu {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    padding-top: 7px;
+    font-size: 20px;
+    height: 10vh;
+    font-family: 'Cinzel', serif;
+}
+
+/* para não aparecer no normal */
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* responsividade */
+@media screen and (max-width: 730px) {
+    .container-menu {
+        width: 100%;
+        background: #9dc491;
+        justify-content: space-around;
+        align-items: center;
+        padding-right: 2rem;
+    }
+
+    .option {
+        display: none;
+    }
+   #menu-right{
+    width: 15%;
+    display: flex;
+    gap: 30px;
+    }
+
+    /*  
+    .botao-login {
+        display: none;
+        margin: 0px 0px;
+    }
+*/
+    .mobile-menu-icon {
+        display: block;
+    }
+
+    .mobile-menu-icon button {
+        margin: 0px 0px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul {
+        font-size: 20px;
+        background: #9dc491;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        font-family: 'Cinzel', serif;
+    }
+
+    .mobile-menu .option {
+        display: block;
+        padding-top: 1.5rem;
+    }
+
+    .open {
+        display: block;
+    }
+    
+    #menu-right{
+        width: auto;
+    }
+
+    .submenu {
+        height: 10vh;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Cinzel', serif;
+    }
+}

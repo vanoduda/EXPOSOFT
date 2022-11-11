@@ -1,0 +1,363 @@
+body {
+    text-align: center;
+    align-items: center;
+    background-color: #ecf0f1;
+}
+
+.nome {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*funcionamento do cartao */
+.funcionamento {
+    box-shadow: 0px 3px 10px #464646;
+    align-content: center;
+    border-color: #cf8768;
+    padding: 20px;
+    padding-inline: 30px;
+    margin-block: 10px;
+    font-size: 20px;
+    border: 3px #9dc491 dashed;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 2%;
+}
+
+.titulo {
+    font-size: 23px;
+    font-family: 'Petit Formal Script', cursive;
+    font-weight: bold;
+    color: #cf8768;
+}
+
+.texto {
+    text-align: center;
+    font-size: 15px;
+}
+
+.formulario {
+    background-color: #cf8768;
+    border-radius: 20px;
+    height: fit-content;
+    padding-block: 10px;
+    max-width: 100%;
+    width: 700px;
+    color: white;
+}
+
+.card-header {
+    padding-bottom: 10px;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+/*dados do presenteado*/
+#presenteado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    max-width: 100%;
+    /* top e bottom */
+    padding-block: 20px;
+    /* direta e esquerda */
+    padding-inline: 20px;
+}
+
+/* id do inserir dados*/
+#dados {
+    font-family: Georgia;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 20px;
+    padding-inline: 10px;
+}
+
+/*nome, nascimento e cpf */
+.card-content label {
+    font-weight: bold;
+    text-align: left;
+    font-size: 17px;
+    padding-block: 10px;
+    padding-inline: 10px;
+
+}
+
+/*onde a pessoa vai escrever o nome, cpf e nascimento*/
+.card-content-area input {
+    margin-top: 10px;
+    padding: 0 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px dashed #ecf0f1;
+    outline: none;
+    color: #fff;
+}
+
+.card-content-area {
+    background-color: transparent;
+    border: none;
+    text-align: justify;
+    padding-left: 10px;
+    padding-block: 10px;
+}
+
+/* as duas divs de dados*/
+.pagina {
+    display: flex;
+    flex-direction: row;
+    /* alinha horizontal */
+    justify-content: space-around;
+    margin-block: 2%;
+}
+
+.escolha {
+    font-size: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.escolhas {
+    font-size: 23px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#escolhacartao {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.escolhas input {
+    width: 30px;
+}
+
+.botao {
+    font-size: 15px;
+    margin-left: 16%;
+    background-color: transparent;
+    color: black;
+    border-radius: 25px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    font-family: monospace;
+    border-color: #cf8768;
+}
+
+.botao:hover {
+    background-color: #cf8768;
+    border-color: white;
+    border-color: transparent;
+    color: white;
+}
+
+.cartoes {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+#texto {
+    display: flex;
+    float: flex;
+    position: relative;
+    align-items: justify;
+}
+
+.imgcartao img {
+    padding: 10px;
+    width: 100%;
+    min-width: 450px;
+}
+
+.imgcartao1 img {
+    padding: 10px;
+    width: 100%;
+    min-width: 450px;
+}
+
+.descriptions {
+    padding-left: 15px;
+    text-align: justify;
+    font-size: 22px;
+    padding-top: 15px;
+    font-family: Times New Roman;
+}
+
+.titles {
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 20px;
+    background-color: #cf8768;
+    border-radius: 6px;
+    color: white;
+}
+
+.enviar {
+    width: 100px;
+    height: 30px;
+    border-color: #cf8768;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+}
+
+.enviar:hover {
+    background-color: #cf8768;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .all {
+        flex-wrap: wrap;
+    }
+
+    .all1 {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .textgold {
+        order: 2;
+    }
+
+    .imgcartao1 {
+        order: 1;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .card-content label {
+        font-weight: bold;
+        text-align: left;
+        font-size: 17px;
+        padding-block: 10px;
+        padding-inline: 4rem;
+    }
+
+    .card-content-area input {
+        margin-left: 4rem;
+    }
+
+}
+
+.tudo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #9dc491;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.text {
+    text-align: center;
+}
+
+.sms {
+    background-color: #9dc491;
+    border: none;
+    float: left;
+}
+
+.tel {
+    background-color: #9dc491;
+    border: none;
+    float: left;
+}
+
+.cep {
+    background-color: #9dc491;
+    border: none;
+    float: left;
+    margin-top: 1vh;
+}
+
+.redes-sociais {
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    gap: 7px;
+    display: flex;
+    align-items: center;
+}
+
+.whatsapp-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-top: 4vh;
+    margin-inline: 0;
+}
+
+.instagram-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-top: 4vh;
+    margin-inline: 0;
+}
+
+.twitter-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-top: 4vh;
+    margin-inline: 0;
+}
+
+.fotinho-ana {
+    border-radius: 30px;
+}
+
+.ana {
+    text-align: center;
+}
+
+.fotinho-duda {
+    border-radius: 30px;
+}
+
+.duda {
+    text-align: center;
+}
+
+.fotinho-so {
+    border-radius: 30px;
+}
+
+.so {
+    text-align: center;
+    border-radius: 30px;
+}
+
+.endereco {
+    height: fit-content;
+}
+
+@media screen and (max-width: 730px) {
+    .tudo {
+        width: 100%;
+        background: #9dc491;
+        display: table;
+    }
+
+    .redes-sociais {
+        text-align: center;
+    }
+
+    .cep {
+        margin-top: 1px;
+    }
+}

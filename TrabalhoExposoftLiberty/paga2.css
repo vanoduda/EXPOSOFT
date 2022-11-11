@@ -1,0 +1,267 @@
+body {
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#dados {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario {
+    color: #cf8768;
+    font-size: 17px;
+    border-color: 2px solid #9dc491;
+    box-shadow: 0px 3px 5px #464646;
+    border-radius: 10px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#usuario {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px dashed #cf8768;
+    outline: none;
+    color: gray;
+    width: 16rem;
+}
+
+.quem {
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.total {
+    color: #cf8768;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+    border-color: #9dc491;
+    box-shadow: 0px 3px 5px #464646;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+#precopagar {
+    border: none;
+    border-bottom: 1px solid #cf8768;
+    height: 2rem;
+    border-radius: 14px;
+    background-color: transparent;
+    font-family: Cinzel, serif;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.escolhas {
+    padding-block: 3rem;
+    font-size: 23px;
+    font-family: Cinzel, serif;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.escolhas input {
+    width: 30px;
+}
+
+/* c8d5c8 */
+.forms {
+    margin-left: 31rem;
+    box-shadow: 0px 3px 5px #464646;
+    max-width: 100%;
+    padding-block: 10px;
+    padding-inline: 20px;
+    width: fit-content;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Cinzel, serif;
+    padding-block: 10px;
+}
+
+#carton {
+    border: none;
+    border-bottom: 1px solid #cf8768;
+    height: 2rem;
+    border-radius: 14px;
+    background-color: transparent;
+    font-family: Cinzel, serif;
+    font-weight: bold;
+}
+
+.pagar {
+    width: 100px;
+    height: 30px;
+    color: black;
+    background-color: #ecf0f1;
+    border: 1px solid #9dc491;
+    font-size: 20px;
+    border-radius: 10px;
+    font-family: 'Cinzel', serif;
+}
+
+.pagar:hover {
+    border: 1px solid #cf8768;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 730px) {
+    #dados {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .forms {
+        margin-left: 5rem;
+    }
+}
+
+/* FOOTER */
+.tudo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #9dc491;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.text {
+    text-align: center;
+}
+
+.sms {
+    background-color: #9dc491;
+    border: none;
+    float: left;
+}
+
+.tel {
+    background-color: #9dc491;
+    border: none;
+    display: flex;
+}
+
+.email {
+    background-color: #9dc491;
+    border: none;
+    display: flex;
+}
+
+.cep {
+    display: flex;
+}
+
+
+.redes-sociais {
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.whatsapp-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-inline: 0;
+}
+
+.instagram-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-inline: 0;
+}
+
+.twitter-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-inline: 0;
+}
+
+.fotinho-ana {
+    border-radius: 30px;
+}
+
+.ana {
+    text-align: center;
+    flex: 1;
+}
+
+.fotinho-duda {
+    border-radius: 30px;
+}
+
+.duda {
+    text-align: center;
+    flex: 1;
+
+}
+
+.fotinho-so {
+    border-radius: 30px;
+}
+
+.so {
+    text-align: center;
+    border-radius: 30px;
+    flex: 1;
+}
+
+.sobre-nos {
+    flex: 3;
+}
+
+.endereco {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    flex: 3;
+}
+
+@media screen and (max-width: 730px) {
+    .tudo {
+        width: 100%;
+        background: #9dc491;
+        flex-direction: column;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .redes-sociais {
+        text-align: center;
+
+    }
+
+    .endereco {
+        align-items: center;
+    }
+
+    .cep {
+        margin-top: 1px;
+    }
+
+}

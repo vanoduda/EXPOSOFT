@@ -1,0 +1,106 @@
+.tudo {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #9dc491;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Petit Formal Script', cursive;
+}
+
+.text {
+    text-align: center;
+}
+
+.sms {
+    background-color: #9dc491;
+    border: none;
+    float: left;
+}
+
+.tel {
+    background-color: #9dc491;
+    border: none;
+    float: left;
+}
+
+.cep {
+    background-color: #9dc491;
+    border: none;
+    float: left;
+    margin-top: 1vh;
+}
+
+.redes-sociais {
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    gap: 7px;
+}
+
+.others {
+    margin-bottom: 2rem;
+    justify-content: space-around;
+    gap: 7px;
+}
+
+.whatsapp-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-top: 4vh;
+}
+
+.instagram-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-top: 4vh;
+}
+
+.twitter-btn {
+    border: none;
+    background-color: #9dc491;
+    margin-top: 4vh;
+}
+
+.fotinho-ana {
+    border-radius: 30px;
+}
+
+.ana {
+    text-align: center;
+}
+
+.fotinho-duda {
+    border-radius: 30px;
+}
+
+.duda {
+    text-align: center;
+}
+
+.fotinho-so {
+    border-radius: 30px;
+}
+
+.so {
+    text-align: center;
+    border-radius: 30px;
+}
+
+@media screen and (max-width: 730px) {
+    .tudo {
+        width: 100%;
+        background: #9dc491;
+        display: table;
+    }
+
+    .redes-sociais {
+        text-align: center;
+    }
+
+
+
+
+}
